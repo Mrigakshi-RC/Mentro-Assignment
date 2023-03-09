@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.container {
+  position: absolute;
+  width: 826px;
+  height: 869px;
+  left: 142px;
+  top: 409px;
+  border: solid;
+}
+
+.rating {
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 0.015em;
+  color: #4caf50;
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 120px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.job {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 82px;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+.description {
+    width: 812px;
+height: 280px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: justify;
+  letter-spacing: 0.015em;
+
+  color: #000000;
+}
