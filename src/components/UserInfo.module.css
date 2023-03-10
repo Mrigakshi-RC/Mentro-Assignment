@@ -14,6 +14,8 @@
   font-size: 100px;
   letter-spacing: 0.015em;
   color: #4caf50;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 .userName {
@@ -22,6 +24,7 @@
   line-height: 120px;
   letter-spacing: 0.015em;
   color: #000000;
+  margin: 0;
 }
 
 .job {
@@ -30,16 +33,46 @@
   line-height: 82px;
   letter-spacing: 0.015em;
   color: #000000;
+  margin: 0;
 }
 
 .description {
-    width: 812px;
-height: 280px;
+  width: 812px;
+  height: 280px;
   font-weight: 400;
   font-size: 32px;
   line-height: 48px;
   text-align: justify;
   letter-spacing: 0.015em;
-
   color: #000000;
+  margin: 0;
+  margin-top: 13%;
+}
+
+.fiveStar {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\full_star.svg");
+  background-repeat: space;
+  height: 59px;
+  width: 317px;
+}
+
+.fourHalfContainer {
+  overflow: hidden;
+  height: 59px;
+  width: 290px;
+  margin-bottom: 40px;
+}
+
+.bookButton {
+  position: absolute;
+  left: 141px;
+  top: 1392px;
+  width: 535px;
+  height: 122px;
+  background-color: #4caf50;
+  border: none;
+  filter: drop-shadow(25px 15px 150px #4caf50);
+  font-weight: 600;
+  font-size: 45px;
+  color: #ffffff;
 }
