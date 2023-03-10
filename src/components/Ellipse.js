@@ -2,10 +2,9 @@ import React, { useState } from "react";
 import styles from "./Ellipse.module.css";
 
 
-function Ellipse() {
-  const [col,changeCol]=useState(0);
+function Ellipse(props) {
   return (
-    <div className={styles.ellipse}></div>
+    <div className={styles.ellipse} style={{background: props.color}}></div>
   )
 }
 

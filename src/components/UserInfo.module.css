@@ -59,10 +59,13 @@
   width: 317px;
 }
 
-.fourHalfContainer {
+.fourHalf {
   overflow: hidden;
-  height: 59px;
   width: 290px;
+}
+
+.starcontainer {
+  height: 59px;
   margin-bottom: 40px;
   margin-left:25px;
 }

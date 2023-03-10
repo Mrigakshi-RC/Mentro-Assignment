@@ -15,6 +15,10 @@
   border: none;
 }
 
+.path2{
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\path2.svg");
+}
+
 .userImg {
   width: 300px;
   height: 300px;

@@ -1,11 +1,26 @@
 .mainUser {
-  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Prankur.svg");
   background-size: 100% 100%;
   position: absolute;
   width: 543px;
   height: 546px;
   left: 1694px;
   top: 728px;
+}
+
+.one{
+    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Prankur.svg")
+}
+.two{
+    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Sourav.svg")
+}
+.three{
+    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Saumya.svg")
+}
+.four{
+    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Keshav.svg")
+}
+.five{
+    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Ankita.svg")
 }
 
 .userName {
