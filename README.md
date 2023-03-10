@@ -1,5 +1,7 @@
 # Mentro-Assignment
 
+## Preview Dimensions used during development - 2896 × 1683 px
+
 ## Screenshots
 
 ![2023-03-10](https://user-images.githubusercontent.com/95232525/224386308-18076a47-4b00-4716-a27f-2ce229975509.png)
