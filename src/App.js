@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import Ellipse from "./components/Ellipse";
 import Users from "./components/Users";
 import UserInfo from "./components/UserInfo";
+import MainUser from "./components/MainUser";
 
 
 function App() {
@@ -36,8 +37,8 @@ function App() {
       <Ellipse/>
       <Users/>
       <UserInfo data={userList[0]}/>
-      {/* <Main_User/>
-      <DownButton1/>
+      <MainUser name={userList[0].name}/>
+      {/* <DownButton1/>
       <DownButton2/> */}
     </React.Fragment>
   );
