@@ -4,7 +4,7 @@ import styles from "./DownButton2.module.css";
 
 function DownButton2(props) {
   return (
-    <React.Fragment><button className={styles.downButton2} onClick={props.moveRight}>↓</button></React.Fragment>
+    <React.Fragment><button className={`${styles.downButton2} ${props.color===0?"":styles.button2}`} onClick={props.moveRight}>↓</button></React.Fragment>
   )
 }
 

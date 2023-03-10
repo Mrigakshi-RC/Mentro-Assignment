@@ -83,3 +83,18 @@
   font-size: 45px;
   color: #ffffff;
 }
+
+.button2{
+  background-color: 
+  #609B6C;
+}
+.rating2{
+  color: 
+  #609B6C;
+}
+.fiveStar2 {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\darkStar.svg");
+  background-repeat: space;
+  height: 59px;
+  width: 299px;
+}

@@ -10,7 +10,9 @@
 .path {
   width: 1644px;
   height: 1644px;
-  margin-top: 1800px;
+  background-size:100% 100%;
+  margin-top: 1400px;
+  margin-left: 450px;
   background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\path.svg");
   border: none;
 }
@@ -23,15 +25,9 @@
   width: 300px;
   height: 300px;
   position: absolute;
+  transform-origin: 50% 0%;
 }
 
-.userImg:nth-of-type(1) {
-  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Prankur.svg");
-  background-size: 100% 100%;
-  position: absolute;
-  bottom: 25%;
-  left: 44%;
-}
 .userImg:nth-of-type(2) {
   background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Sourav.svg");
   background-size: 100% 100%;
@@ -60,3 +56,12 @@
   bottom: 19%;
   left: 25%;
 }
+
+.userImg:nth-of-type(6) {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Prankur.svg");
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 25%;
+  left: 45%;
+}
+

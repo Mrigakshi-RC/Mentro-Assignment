@@ -12,6 +12,8 @@ function App() {
   const colors=["#C5F8C7","#7ABD87"];
   const [ellipseColorIndex, changeEllipseColor]=useState(0);
   const [pathColor, changePathColor]=useState(0);
+  const animation_Leftangles=[{x:-305, y:-415},{x:1500, y:0},{x:-230, y:410},{x:-510, y:150}];
+  const animation_Rightangles=[{x:305, y:415},{x:-1500, y:0},{x:230, y:-410},{x:510, y:-150}];
 
   const userList=[{
     key:"one",
@@ -81,10 +83,10 @@ function App() {
     <React.Fragment>
       <Ellipse color={colors[ellipseColorIndex]}/>
       <Users color={pathColor}/>
-      <UserInfo data={userList[index]}/>
+      <UserInfo data={userList[index]} color={pathColor}/>
       <MainUser data={userList[index]}/>
-      <DownButton1 moveLeft={leftMove}/>
-      <DownButton2 moveRight={rightMove}/>
+      <DownButton1 moveLeft={leftMove} color={pathColor}/>
+      <DownButton2 moveRight={rightMove} color={pathColor}/>
     </React.Fragment>
   );
 }
