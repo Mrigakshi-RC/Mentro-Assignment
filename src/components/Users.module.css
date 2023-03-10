@@ -10,14 +10,14 @@
 .path {
   width: 1644px;
   height: 1644px;
-  background-size:100% 100%;
+  background-size: 100% 100%;
   margin-top: 1400px;
   margin-left: 450px;
   background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\path.svg");
   border: none;
 }
 
-.path2{
+.path2 {
   background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\path2.svg");
 }
 
@@ -64,4 +64,3 @@
   bottom: 25%;
   left: 45%;
 }
-

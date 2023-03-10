@@ -7,20 +7,20 @@
   top: 728px;
 }
 
-.one{
-    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Prankur.svg")
+.one {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Prankur.svg");
 }
-.two{
-    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Sourav.svg")
+.two {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Sourav.svg");
 }
-.three{
-    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Saumya.svg")
+.three {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Saumya.svg");
 }
-.four{
-    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Keshav.svg")
+.four {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Keshav.svg");
 }
-.five{
-    background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Ankita.svg")
+.five {
+  background-image: url("C:\Users\mriga\Frontend stuff\React\Mentro-Assignment\src\images\Ankita.svg");
 }
 
 .userName {
@@ -31,14 +31,14 @@
   border-radius: 40px;
   left: 1620px;
   top: 1365px;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   font-weight: 600;
   font-size: 64px;
   line-height: 96px;
   letter-spacing: 0.015em;
   color: #000000;
-  margin:auto;
+  margin: auto;
 }

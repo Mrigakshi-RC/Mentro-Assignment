@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./DownButton1.module.css";
-// import { motion } from "framer-motion";
 
 
 function DownButton1(props) {
