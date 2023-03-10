@@ -3,6 +3,8 @@ import Ellipse from "./components/Ellipse";
 import Users from "./components/Users";
 import UserInfo from "./components/UserInfo";
 import MainUser from "./components/MainUser";
+import DownButton1 from "./components/DownButton1";
+import DownButton2 from "./components/DownButton2";
 
 
 function App() {
@@ -25,12 +27,12 @@ function App() {
     rating:"5.0",
     name:"Keshav Bathla",
     job:"SDE-1 @Groww",
-    description:"I am Prankur Gupta, I am working as a Software Development Engineer at Amazon. I can guide you throughout your preparation phase. Trust me when I tell you this I know the exact recipe to crack the coding interview rounds of top companies for the SDE role."
-  },{
-    rating:"4.9",
-    name:"Prankur Gupta",
-    job:"SDE @ Amazon",
     description:"A curious learner, on a way to become a kickass developer who writes Python, Java, Javascript and Go | Software Engineer @Groww | Ex-Software Engineer @Grofers | Tech Consultant | Freelancer | Open Source Developer | Coding Instructor"
+  },{
+    rating:"5.0",
+    name:"Ankita",
+    job:"ML Engineer @Firework",
+    description:"Working my way to build the world's future product. Machine Learning Engineer, Data and Technology Evangelist I breathe in developing software with intelligence. I have been involved with startups like DailyHunt, Firework Hq, MagilHub to build the AI end of their products. "
   }]
   return (
     <React.Fragment>
@@ -38,8 +40,8 @@ function App() {
       <Users/>
       <UserInfo data={userList[0]}/>
       <MainUser name={userList[0].name}/>
-      {/* <DownButton1/>
-      <DownButton2/> */}
+      <DownButton1/>
+      <DownButton2/>
     </React.Fragment>
   );
 }

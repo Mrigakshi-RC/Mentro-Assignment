@@ -1,0 +1,12 @@
+.downButton1{
+    position: absolute;
+    width: 105px;
+    height: 105px;
+    top: 1086px;
+    border-radius:50%;
+    border:none;
+    background: #4CAF50;
+    left: 1121px;
+    font-size:44px;
+    color:#FFFFFF;
+}

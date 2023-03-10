@@ -6,7 +6,6 @@
   height: 869px;
   left: 142px;
   top: 409px;
-  border: solid;
 }
 
 .rating {
@@ -16,6 +15,7 @@
   color: #4caf50;
   margin: 0;
   margin-bottom: 24px;
+  margin-left:25px;
 }
 
 .userName {
@@ -25,6 +25,7 @@
   letter-spacing: 0.015em;
   color: #000000;
   margin: 0;
+  margin-left:25px;
 }
 
 .job {
@@ -34,10 +35,11 @@
   letter-spacing: 0.015em;
   color: #000000;
   margin: 0;
+  margin-left:25px;
 }
 
 .description {
-  width: 812px;
+  width: 780px;
   height: 280px;
   font-weight: 400;
   font-size: 32px;
@@ -47,6 +49,7 @@
   color: #000000;
   margin: 0;
   margin-top: 13%;
+  margin-left:25px;
 }
 
 .fiveStar {
@@ -61,11 +64,12 @@
   height: 59px;
   width: 290px;
   margin-bottom: 40px;
+  margin-left:25px;
 }
 
 .bookButton {
   position: absolute;
-  left: 141px;
+  left: 166px;
   top: 1392px;
   width: 535px;
   height: 122px;
